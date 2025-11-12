@@ -18,15 +18,14 @@ El script fue desarrollado y testeado en CentOS 7.
 ## Requisitos previos:
 - Distribución Linux (CentOS 7+, Rocky, Alma, u otras distribuciones basadas en Red Hat).
 - Acceso administrativo (sudo).
-- Dependencias: docker, nmap, tar, cron, systemctl, journalctl (algunos los instala el script).
-- Carpeta /adminsuitex/ en el directorio raíz con permisos adecuados.
+- Carpeta /home/ en el directorio raíz con permisos adecuados.
 
 ## Instalación normal:
-1. Copiar la carpeta adminsuitex a /.
+1. Copiar la carpeta home a /.
 2. Dar permisos de ejecución:
--- chmod +x principal.sh *.sh
+-- chmod +x menu.sh *.sh
 3. Ejecutar el menú principal:
--- bash principal.sh
+-- bash menu.sh
 
 ## Instalación en VM:
 - Tener instalado el programa Oracle VirtualBox.
@@ -46,8 +45,5 @@ El script fue desarrollado y testeado en CentOS 7.
 ## Seguridad y buenas prácticas:
 - No guardar contraseñas dentro de los scripts.
 - Ejecutar siempre con permisos mínimos.
-- Revisar el log /var/log/adminsuite.log para el registro de la actividad.
 - Verificar la existencia de respaldos antes de restaurar.
-- Usar Docker y cron de forma controlada.
-
-- ```
+ ```
