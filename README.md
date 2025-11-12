@@ -1,3 +1,4 @@
+```
 adminsuitex/
 ├── scripts/
 │   └── menu.sh
@@ -10,3 +11,4 @@ adminsuitex/
 ├── proyecto/
 │   └── copias/ 
     └── reportes/
+```
